@@ -257,6 +257,15 @@ module searchRoleUser 'core/security/role.bicep' = {
     principalType: 'User'
   }
 }
+module searchServiceContribRoleUser 'core/security/role.bicep' = {
+  scope: searchServiceResourceGroup
+  name: 'search-service-contrib-role-user'
+  params: {
+    principalId: principalId
+    roleDefinitionId: '7ca78c08-252a-4471-8644-bb5ff32d4ba0'
+    principalType: 'User'
+  }
+}
 
 module searchContribRoleUser 'core/security/role.bicep' = {
   scope: searchServiceResourceGroup
