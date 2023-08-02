@@ -30,9 +30,8 @@ const Layout = () => {
                                         src="https://www.fach.mil.cl/images/galeria/logo_100/100_FACH_JUNTOS.png"
                                         alt="Github logo"
                                         aria-label="Link to github repository"
-                                        width="20px"
-                                        height="20px"
-                                        className={styles.githubLogo}
+                                        width="200px"
+                                        height="200px"
                                     />
                                 </a>
                             </li>
