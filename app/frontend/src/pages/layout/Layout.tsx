@@ -27,7 +27,7 @@ const Layout = () => {
                             <li className={styles.headerNavLeftMargin}>
                                 <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
                                     <img
-                                        src={github}
+                                        src="https://www.fach.mil.cl/images/galeria/imagen_2023/escudofach_color.png"
                                         alt="Github logo"
                                         aria-label="Link to github repository"
                                         width="20px"
